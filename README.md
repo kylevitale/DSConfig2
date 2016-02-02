@@ -1,7 +1,10 @@
 # DSConfig2
-Configure AD Directory Services on OS X.
+A simple script to more easily configure AD Directory Services on OS X.
 
-Easily change all three computer names, bind and un-bind, and set AD config options without all that typing. Ugh.
+Change all three computer names, bind and un-bind, and set AD config options without all that typing. Ugh.
 
 # Usage
 
+E.g. Change computer names, unbind, bind, and enable mobile accounts.
+
+dsconfig2.py -n "MyNewComputerName" -p "MyBindingPassword" -cbm
